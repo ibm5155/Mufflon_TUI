@@ -1,0 +1,24 @@
+/*===================================
+   Mufflon_TUI CONFIG FILE
+ CREATED BY: LUCAS ZIMERMAN FRAULOB
+=====================================*/
+
+uncomment the vars so the program can find them.
+by uncomment I mean removing the "//" before the command.
+true and false options are case sensitive so use "true" or "false"
+GIMP_FOLDER_PATH = C:\Program Files\GIMP 2\bin
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*   full folder path to reach GIMP */
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+GIMP_CONSOLE_EXE_NAME = gimp-console-2.8.exe
+CONFIG_BOOL_USE_GIMP = true
+CONFIG_BOOL_FLYBUG = true
+CONFIG_BOOL_FLYBUG_MULTIPASS = false
+CONFIG_BOOL_USE_SPRITES = false
+CONFIG_BOOL_PREPARE_PICTURE = false
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*   GIMP should not be enabled with FLYBUG and/or MULTIPASS and/or USE_SPRITES and/or PREPARED set to true*/
+/*   the software will  not allow you to do that on the interface but you can mess with the config here to */
+/*   see what the heck will happen (NOTE: I'll not test this way of doing the things)                      */
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+CONFIG_INTEGER_NUM_THREADS = 1 //you should never use a value greater than the amount of cpu cores that your machine has...
